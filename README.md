@@ -1,4 +1,4 @@
-[![Java CI with Gradle](https://github.com/DiegoProtec/blue/actions/workflows/gradle.yml/badge.svg)](https://github.com/DiegoProtec/blue/actions/workflows/gradle.yml)
+[![Java CI with Gradle](https://github.com/DiegoProtec/blue/actions/workflows/ci.yml/badge.svg)](https://github.com/DiegoProtec/blue/actions/workflows/ci.yml)
 
 # blue
 
