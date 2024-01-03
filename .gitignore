@@ -31,6 +31,7 @@ nb-configuration.xml
 # patch
 *.orig
 *.rej
+*.tgz
 
 # Local environment
 .env
