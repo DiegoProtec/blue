@@ -25,7 +25,7 @@ dependencies {
 }
 
 group = "org.contecin"
-version = "v0.0.6"
+version = "v0.0.7"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
