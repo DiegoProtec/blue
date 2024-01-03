@@ -32,6 +32,7 @@ nb-configuration.xml
 *.orig
 *.rej
 *.tgz
+*.log
 
 # Local environment
 .env
