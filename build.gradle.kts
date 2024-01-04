@@ -14,9 +14,9 @@ val quarkusPlatformVersion: String by project
 
 dependencies {
     implementation("io.quarkus:quarkus-kind")
-    implementation("io.quarkus:quarkus-smallrye-health")
-    implementation("io.quarkus:quarkus-kubernetes")
+    implementation("io.quarkus:quarkus-container-image-docker")
     implementation("io.quarkiverse.helm:quarkus-helm:1.2.1")
+    implementation("io.quarkus:quarkus-smallrye-health")
     implementation(enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}"))
     implementation("io.quarkus:quarkus-resteasy")
     implementation("io.quarkus:quarkus-arc")
@@ -25,7 +25,7 @@ dependencies {
 }
 
 group = "org.contecin"
-version = "v0.0.7"
+version = "v0.0.9"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
